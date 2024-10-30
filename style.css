@@ -1,0 +1,156 @@
+/* index classes */
+body
+{
+    margin: 0;
+}
+
+.title
+{
+    text-align: center;
+    padding-bottom: 5vh;
+    margin: 0;
+    width: 100%;
+
+    color: rgb(255, 177, 0);
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.backgroundWeb
+{
+    background-image: url(materials/Space.png);
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30vh;
+}
+
+.coverImage img
+{
+    width: 50vw;
+    height: 50vw;
+
+    border-radius: 50%;
+}
+
+.clickMe button
+{
+    margin-right: 0;
+    width: 10vw;
+    border-width:10px ;
+
+    background-color: rgb(255, 177, 0) ;
+    color: rgb(244, 246, 255);
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.5em;
+}
+
+.titleImage h3
+{
+    width: 20vw;
+
+    color: rgb(244, 246, 255);
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 1.5em;
+}
+
+/* articles classes */
+
+.backgroundJupiter
+{
+    background: url(./materials/Giove.jpg), url(./materials/Space.png);
+
+    background-position: center, center;
+    background-size: 50%, cover;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+
+    height: 100vh;
+}
+
+.backgroundSaturn
+{
+    background: url(./materials/Saturno.jpeg), url(./materials/Space.png);
+
+    background-position: center, center;
+    background-size: 50%, auto;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+
+    height: 100vh;
+}
+
+.backgroundMars
+{
+    background: url(./materials/Marte.jpg), url(./materials/Space.png);
+
+    background-position: center, center;
+    background-size: 50%, auto;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+
+    height: 100vh;
+}
+
+.backgroundJupiter ul
+{
+    margin: 0;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li
+{
+    color: rgb(8, 2, 163);
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 2em;
+
+    list-style-type: none;
+}
+
+.artContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div > h4
+{
+    color: rgb(255, 0, 0);
+
+    padding-top: 10vh;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 2em;
+}
+
+div > p
+{
+    color: rgb(8, 2, 163);
+
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 70%;
+
+    font-family: "Source Code Pro", monospace;
+    font-size: 2em;
+}
+
+.clickMeArt
+{
+    display: flex;
+    justify-content: center;
+}
